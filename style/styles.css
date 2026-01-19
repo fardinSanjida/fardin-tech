@@ -42,5 +42,11 @@ nav{
     border-radius: 35px;
 }
 
+footer{
+    background-image: url(/images/footer-bg.png);
+     background-repeat: no-repeat;
+     background-position: top;
+}
+
     
     
