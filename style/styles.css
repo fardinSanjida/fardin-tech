@@ -27,5 +27,20 @@ nav{
    background-color: rgba(53, 17, 101, 0.4);
 }
 
+.card {
+    background-color: #250D44;
+   
+}
+
+.host{
+    background-color: #250D44;
+}
+
+.icons{
+    padding: 10px;
+    border: 1px #533C72 solid;
+    border-radius: 35px;
+}
+
     
     
