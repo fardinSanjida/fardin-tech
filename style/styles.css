@@ -1,52 +1,150 @@
-
-
 .font-inter> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-body{
+body {
     background-color: #1A0B2E;
 }
 
-nav{
-    width:74% ;
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-.banner{
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+.banner {
     background-image: url(../images/hero-circle.png), url(../images/hero-bg.png);
     background-repeat: no-repeat;
-    background-position:center 80px, top; 
+    background-position: center 80px, top;
 }
 
-.grid-container{
-    background-color:#230E3D ;
+.grid-container {
+    background-color: #230E3D;
 }
 
-.grid-container div div{
-   background-color: rgba(53, 17, 101, 0.4);
+.grid-container div div {
+    background-color: rgba(53, 17, 101, 0.4);
 }
 
 .card {
     background-color: #250D44;
-   
 }
 
-.host{
+.host {
     background-color: #250D44;
 }
 
-.icons{
+.icons {
     padding: 10px;
     border: 1px #533C72 solid;
     border-radius: 35px;
 }
 
-footer{
+footer {
     background-image: url(/images/footer-bg.png);
-     background-repeat: no-repeat;
-     background-position: top;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-    
-    
+.episodes .episode-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card iframe {
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.card h4 {
+    font-size: 1.125rem;
+}
+
+.card p {
+    font-size: 0.875rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    header {
+        width: 100%;
+    }
+
+    .navlist ul {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .banner image {
+        width: 100%;
+    }
+
+    .podcast {
+        margin: 40px 20px;
+    }
+
+    .rating {
+        margin: 40px 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .rating > div {
+        flex: 1 1 45%;
+        min-width: 150px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .grid-con {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* .episode-video {
+        width: 400px;
+        flex-direction: column;
+        margin-bottom: 0 1.25rem 1rem 1.25rem;
+    } */
+
+    .host {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 332px);
+    }
+
+    .host p {
+        width: 352px;
+    }
+
+    .footer-icons {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 136px);
+    }
+
+}
