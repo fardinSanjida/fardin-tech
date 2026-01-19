@@ -1,5 +1,11 @@
 
 
+.font-inter> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 body{
     background-color: #1A0B2E;
 }
@@ -11,11 +17,11 @@ nav{
     background-image: url(../images/hero-circle.png), url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position:center 80px, top; 
-    
-
 }
-.banner-image{
-    
-    
 
+.grid-container{
+    background-color:#230E3D ;
 }
+
+    
+    
