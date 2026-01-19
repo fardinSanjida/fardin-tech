@@ -23,5 +23,9 @@ nav{
     background-color:#230E3D ;
 }
 
+.grid-container div div{
+   background-color: rgba(53, 17, 101, 0.4);
+}
+
     
     
