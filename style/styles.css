@@ -20,6 +20,9 @@ body {
     overflow-x: hidden;
 }
 
+.tech-headin{
+     animation: glow 3s ease-in-out infinite alternate; 
+}
 
 .banner {
     background-image: url(../images/hero-circle.png), url(../images/hero-bg.png);
@@ -74,8 +77,8 @@ footer {
 }
 
 .card {
-    flex: 1 1 300px;
-    max-width: 350px;
+    flex: 300px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -95,12 +98,12 @@ footer {
 
 @keyframes glow {
     0% {
-        filter: drop-shadow(0 0 10px rgba(40, 215, 200, 0.4))
-                drop-shadow(0 0 20px rgba(0, 136, 255, 0.3));
+        filter: drop-shadow(0 0 10px rgba(231, 9, 208, 0.4))
+                drop-shadow(0 0 20px rgba(39, 25, 237, 0.79));
     }
     100% {
-        filter: drop-shadow(0 0 25px rgba(255, 0, 255, 0.8))
-                drop-shadow(0 0 50px rgba(181, 26, 181, 0.6));
+        filter: drop-shadow(0 0 25px rgba(255, 0, 255, 0.929))
+                drop-shadow(0 0 50px rgba(181, 26, 181, 0.959));
     }
 }
 
@@ -183,6 +186,7 @@ footer {
     }
 
     .grid-con {
+        padding-bottom: 2.5rem;
         grid-auto-flow: row;
         grid-template-columns: repeat(1,25rem);
     }
@@ -202,10 +206,6 @@ footer {
        
     }
 
-    .episode-video div {
-        width: 400px;
-        margin-bottom: 0 1.25rem 1rem 1.25rem;
-    }
     
      .episodes{
        padding-bottom: 3.7rem;
