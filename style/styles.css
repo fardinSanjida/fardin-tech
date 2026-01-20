@@ -234,7 +234,7 @@ footer {
     }
 
     footer{
-        background-image: url(../images/mobile-footer.png);
+          background-image: url(../images/mobile-footer.png);
           background-repeat: no-repeat;
           background-size: cover;
         
