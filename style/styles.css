@@ -67,6 +67,7 @@ footer {
     background-image: url(/images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
 }
 
 .episodes .episode-video {
