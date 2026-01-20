@@ -132,7 +132,7 @@ footer {
 
     .banner {
         background-image: none;
-        background-image: url(/images/Vector.png) ,url(/images/hero-bg-2.png);
+        background-image: url(../images/Vector.png) ,url(../images/hero-bg-2.png);
         background-size: 12.5rem 12.5rem, cover;
         background-position:center 2.5rem,  center;
     }
